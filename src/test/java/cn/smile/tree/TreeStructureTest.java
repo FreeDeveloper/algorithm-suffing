@@ -14,11 +14,16 @@ public class TreeStructureTest {
         TreeStructure.TreeNode node = TreeStructure.createTree(inputList);
         System.out.println("前序遍历：");
         TreeStructure.preOrderTraveral(node);
+        System.out.println("栈前序遍历：");
+        TreeStructure.preOrderTraveralWithStack(node);
 
         System.out.println("中序遍历：");
         TreeStructure.inOrderTraveral(node);
 
         System.out.println("后序遍历：");
         TreeStructure.postOrderTraveral(node);
+
+        System.out.println("层序遍历：");
+        TreeStructure.levelOrderTraveral(node);
     }
 }
