@@ -26,4 +26,11 @@ public class BubbleSortTest {
         BubbleSort.sortKnowLastchange(array);
         System.out.println(Arrays.toString(array));
     }
+
+    @Test
+    public void sortJWJTest(){
+        int [] array = new int[]{2,3,4,5,6,7,8,1};
+        BubbleJWJSort.sort(array);
+        System.out.println(Arrays.toString(array));
+    }
 }
