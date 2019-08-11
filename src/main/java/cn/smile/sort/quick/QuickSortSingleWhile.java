@@ -1,5 +1,10 @@
-package cn.smile.sort;
+package cn.smile.sort.quick;
 
+/**
+ * 每一轮都需要比较所有元素 n
+ * 比较轮数，平均情况下是logn
+ * 所以时间复杂度为n*logN
+ * */
 public class QuickSortSingleWhile {
     //双边循环法递归实现
     public static void quickSort(int [] arr,int startIndex,int endIndex){

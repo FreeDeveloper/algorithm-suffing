@@ -1,4 +1,4 @@
-package cn.smile.sort;
+package cn.smile.sort.quick;
 
 
 public class QuickSortDoubleWhile {

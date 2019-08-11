@@ -17,7 +17,7 @@ public class CircleArrayQueue {
 
     public void enQueue(String element){
         if((tail+1) % n == head){
-            System.out.println("当前对了已满");
+            System.out.println("当前队列已满");
         }
 
         items[tail] = element;

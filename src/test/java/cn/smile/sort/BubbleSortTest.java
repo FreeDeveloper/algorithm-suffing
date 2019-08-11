@@ -1,5 +1,7 @@
 package cn.smile.sort;
 
+import cn.smile.sort.bubble.BubbleJWJSort;
+import cn.smile.sort.bubble.BubbleSort;
 import org.junit.Test;
 
 import java.util.Arrays;

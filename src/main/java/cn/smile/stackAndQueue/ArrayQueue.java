@@ -24,7 +24,7 @@ public class ArrayQueue {
     public boolean enQueue(String a){
 
         //如果队尾下标=n表明数组已经满了
-        if(tail == n-1){
+        if(tail == n){
             return false;
         }
         items[tail] = a;
@@ -35,6 +35,7 @@ public class ArrayQueue {
     }
 
     // 入队操作，将 item 放入队尾
+    //如果尾指针指向了N说明队尾已经满了，如果头指针是0说明彻底满了，否则可以把队列整个往前挤
     public boolean enQueue2(String item) {
         // tail == n 表示队列末尾没有空间了
         if (tail == n) {

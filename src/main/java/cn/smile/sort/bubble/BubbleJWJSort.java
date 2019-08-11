@@ -1,4 +1,4 @@
-package cn.smile.sort;
+package cn.smile.sort.bubble;
 
 public class BubbleJWJSort {
     public static void sort(int array[]){

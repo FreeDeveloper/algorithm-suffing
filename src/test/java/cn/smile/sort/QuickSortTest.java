@@ -1,5 +1,7 @@
 package cn.smile.sort;
 
+import cn.smile.sort.quick.QuickSortDoubleWhile;
+import cn.smile.sort.quick.QuickSortSingleWhile;
 import org.junit.Test;
 
 import java.util.Arrays;
